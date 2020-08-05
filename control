@@ -1,0 +1,9 @@
+Package: com.thatmarcel.tweaks.controlwidget
+Name: ControlWidget
+Depends: mobilesubstrate, com.muirey03.libmryipc, com.opa334.ccsupport, preferenceloader, ws.hbang.common (>= 1.11)
+Version: 1.0.7
+Architecture: iphoneos-arm
+Description: Add a widget to your control center
+Maintainer: Marcel Braun <marcel@strg.cc>
+Author: Marcel Braun <marcel@strg.cc>
+Section: Tweaks

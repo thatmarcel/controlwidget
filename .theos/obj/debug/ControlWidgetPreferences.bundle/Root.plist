@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<!-- hb_respring: -->
+
+		<!-- Header -->
+		<dict>
+    		<key>cell</key>
+    		<string>PSGroupCell</string>
+    		<key>headerCellClass</key>
+    		<string>HBPackageNameHeaderCell</string>
+    		<key>packageIdentifier</key>
+    		<string>com.thatmarcel.tweaks.controlwidget</string>
+			<key>backgroundGradientColors</key>
+			<array>
+				<string>#f5bd07</string>
+				<string>#f7bb07</string>
+			</array>
+			<key>showAuthor</key>
+			<false />
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>To use ControlWidget, go into Settings > Control Centre > Customise Controls and add ControlWidget. Changes are usually applied immediately but in some cases may require a respring.</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Select widget</string>
+			<key>isController</key>
+			<true />
+			<key>action</key>
+			<string>showWidgetSelectionController:</string>
+			<key>bundle</key>
+			<string>ControlWidgetPreferences</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.thatmarcel.tweaks.controlwidget.hbprefs</string>
+			<key>key</key>
+			<string>usedarkmode</string>
+			<key>label</key>
+			<string>Dark widget (iOS 13+)</string>
+		</dict>
+
+		<!-- Spacer -->
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Developer</string>
+		</dict>
+
+		<!-- Twitter Cell -->
+		<dict>
+    		<key>cellClass</key>
+    		<string>HBTwitterCell</string>
+    		<key>label</key>
+    		<string>Marcel Braun</string>
+    		<key>user</key>
+    		<string>thatmarcelbraun</string>
+		</dict>
+
+		<dict>
+    		<key>cellClass</key>
+    		<string>HBLinkTableCell</string>
+    		<key>label</key>
+    		<string>Buy me a coffee</string>
+    		<key>url</key>
+    		<string>https://www.buymeacoffee.com/thatmarcelbraun</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Designer</string>
+		</dict>
+
+		<!-- Twitter Cell -->
+		<dict>
+    		<key>cellClass</key>
+    		<string>HBTwitterCell</string>
+    		<key>label</key>
+    		<string>Kindred Cashew</string>
+    		<key>user</key>
+    		<string>cashew_kindred</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Thanks to ConorTheDev for open-sourcing LockWidgets, Tommy Muir for MRYIPC, opa334 for CCSupport, all contributors to Cephei, Litten for the tweak development guide, and everyone that provides resources for the jailbreak community.</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>ControlWidget</string>
+</dict>
+</plist>

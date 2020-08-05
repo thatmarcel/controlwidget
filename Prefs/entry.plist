@@ -1,0 +1,10 @@
+{
+    entry = {
+	bundle = ControlWidgetPreferences;
+	cell = PSLinkCell;
+	detail = CWPrefsController;
+	isController = 1;
+	label = ControlWidget;
+	icon = icon.png;
+    };
+}

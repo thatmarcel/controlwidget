@@ -1,0 +1,19 @@
+/Users/marcel/Documents/Tweaks/ControlWidget-2/controlwidget/.theos/obj/debug/arm64/MRYIPCCenter.m.e1324639.o: \
+  MRYIPCCenter.m /opt/theos/Prefix.pch \
+  /opt/theos/vendor/include/_Prefix/BackwardsCompat.h \
+  /opt/theos/vendor/include/_Prefix/IOSMacros.h \
+  /opt/theos/vendor/include/HBLog.h \
+  /opt/theos/vendor/include/CoreFoundation/CFLogUtilities.h \
+  MRYIPCCenter.h
+
+/opt/theos/Prefix.pch:
+
+/opt/theos/vendor/include/_Prefix/BackwardsCompat.h:
+
+/opt/theos/vendor/include/_Prefix/IOSMacros.h:
+
+/opt/theos/vendor/include/HBLog.h:
+
+/opt/theos/vendor/include/CoreFoundation/CFLogUtilities.h:
+
+MRYIPCCenter.h:
